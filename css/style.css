@@ -162,7 +162,6 @@ footer{
 }
 
 /* botão de voltar */
-
 footer a{
     text-decoration: none;
     color: #00ffff;
@@ -170,6 +169,7 @@ footer a{
 
 /* regras de exibição de acordo com o tipo de tela que carregar o site */
 @media screen and (min-width: 768px){
+    
     /* nav */
     nav{
         flex-direction: row;
