@@ -1,9 +1,9 @@
-body {
+body{
     font-family: nunito, sans-serif;
     color: #1c1c1c;
 }
 
-h1, h2, h3 {
+h1, h2, h3{
     font-family: Asap, sans-serif;
     color: black;
 }
@@ -19,8 +19,8 @@ h1, h2, h3 {
 
 /* navegação */
 
-        /* menu*/
-nav { 
+        /* menu */
+nav{ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@ nav {
 }
 
         /* logo */
-nav > a {
+nav > a{
     text-decoration: none;
     color: white;
     font-weight: 800;
@@ -37,7 +37,7 @@ nav > a {
 }
 
         /* lista de texto do menu */
-nav ul {
+nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +62,7 @@ nav ul li a{
 }
 
 /* cabeçalho */
-header {
+header{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,13 +103,13 @@ header p{
     max-width: 1000px;
 }
 
-#sobre .botao {
+#sobre .botao{
     background-color: #f1f1f1;
     color: #1c1c1c;
 }
 
 /* serviçoes */
-#serviços {
+#serviços{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,14 +163,14 @@ footer{
 
 /* botão de voltar */
 
-footer a {
+footer a{
     text-decoration: none;
     color: #00ffff;
 }
 
-/* regras de exibição de acordo com o tipo de tela que carregar o site*/
+/* regras de exibição de acordo com o tipo de tela que carregar o site */
 @media screen and (min-width: 768px){
-    /*nav*/
+    /* nav */
     nav{
         flex-direction: row;
         justify-content: space-around;
@@ -188,7 +188,7 @@ footer a {
         justify-content: center;   
     }
 
-    /*sobre*/
+    /* sobre */
     #sobre{
         height: 250px;
         height: 30vh;
@@ -197,7 +197,7 @@ footer a {
         
     }
 
-    /*serviços*/
+    /* serviços */
     #serviços{
         flex-direction: row;
         flex-wrap: wrap;
@@ -217,7 +217,7 @@ footer a {
         padding: 0 10px;
     }
 
-    /*fotos*/
+    /* fotos */
     #fotos{
         flex-direction: row;
         flex-wrap: wrap;
@@ -232,7 +232,7 @@ footer a {
         width: 33.3333333%;
     }
 
-    /*contato*/
+    /* contato */
     #contato{
         flex-direction: row;
         flex-wrap: wrap;
